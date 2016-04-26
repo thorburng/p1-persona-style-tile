@@ -3,19 +3,65 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+background: blue;
+}
 
+.color-2 {
+background: red;
+}
 
+.color-3 {
+background: green;
+}
 /* Textures or Patterns*/
-
+.pattern-1 {
+background: URL("http://cdn.wonderfulengineering.com/wp-content/uploads/2015/05/USA-wallpaper-1.jpg") 40px;
+}
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+border: none;
+}
 
 /* Navigation */
+nav li {
+list-style: nine;
+}
 
+nav a:link {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blue;
+text-decoration: none;
+}
 
+nav a:hover {
+color: red;
+    
+}
+
+button {
+    padding: 1em;
+    background: blue;
+    color: white;
+    border: red solid 10px;
+    border-radius: 10px;
+}
+    
+}
 /* Typography */
+h1,h2 {
+    color: red;
+font-family: 'Henny Penny', cursive;
+}
 
+p {
+font-family: 'Henny Penny', cursive;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+}
